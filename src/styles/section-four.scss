@@ -1,0 +1,181 @@
+.section-four{
+    .container-four{
+        margin:0 auto;
+        text-align: center;
+    }
+    .blockfour-one{
+        max-width: 820px;
+        margin:0 auto ;
+    }
+
+    h4{
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 68px;
+    margin:74px 0 34px 0;
+    }
+    h4{
+        span{
+        color:#cd0a2d;
+        }
+    }
+    .blockfour-one{
+        p{
+            font-size: 18px;
+            color: #5c5c5c;
+        }
+    }
+    .blockfour-two{
+        display:flex;
+        color:#000;
+        flex-wrap: wrap;
+    }
+    .flex-four{
+        flex-basis: 49%;
+    }
+    .flex--one{
+         margin-top: 50px;
+    }
+    .white-author{
+        background:#fff;
+        width: 574px;
+        height: 474px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .wrapper-john{
+        margin: 0 80px;
+        text-align: center;
+
+    }
+    .john-smith{
+        display:flex;
+        width: 200px;
+        margin:0 auto;
+        text-align: center; 
+        padding:40px 0 55px 0;
+    }
+   
+    .john-block span{
+        color:#000;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+    .john-block p{
+        color:#000;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin:0;
+    }
+    .name--smith{
+        margin: 10px ;
+    }
+    .wrapper-smith{
+        color:#212121;
+        font-size: 18px;
+        line-height:1.7;
+
+    }
+
+}
+@media (max-width: 1230px){
+    .section-four{
+        .flex-four{
+            display:block;
+            margin:0 auto;
+        }
+        .flex--two{
+            margin-top: 40px;
+        }
+        .top-moto{
+            display:none;
+        }
+        .wrapper-smith{
+            font-size: 17px;
+            line-height:1.6;
+        }
+    }
+}
+
+@media (max-width: 990px){
+    .section-four{
+        .blockfour-one{
+            width: 700px;
+        }
+        h4{
+            font-size: 60px;
+            margin: 74px 0 17px 0;
+        }
+        .blockfour-one{
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media (max-width: 770px){
+    .section-four{
+        .blockfour-one{
+            width: 100%;
+        }
+        h4{
+            font-size: 60px;
+            margin: 74px 0 17px 0;
+        }
+        .blockfour-one{
+            p{
+                font-size: 16px;
+            }
+        }
+        .white-author{
+            width: 500px;
+
+        }
+    }
+}
+@media (max-width: 575px){
+    .section-four{
+        h4{
+            font-size: 48px;
+            margin: 54px 0 17px 0;
+        }
+        .blockfour-one{
+            p{
+                font-size: 14px;
+                padding-bottom:20px;
+            }
+        }
+        .white-author{
+            width: 300px;
+            margin-bottom: 60px;
+        }
+        .wrapper-john{
+            width: 290px; 
+            margin:0 auto;  
+        }
+        .john-smith{
+            padding:30px 0 10px 0;
+        }
+       
+        .john-block span{
+            font-size: 23px;
+        }
+        .john-block p{
+            font-size: 18px;
+        }
+        .name--smith{
+            margin: 10px ;
+        }
+        .wrapper-smith{
+            font-size: 16px;
+            line-height:1.7;
+    
+        }
+        .flex--two{
+           display:none;
+        }
+    
+    }
+}

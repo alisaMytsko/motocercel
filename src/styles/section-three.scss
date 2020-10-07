@@ -1,0 +1,156 @@
+.section-three{
+    display:flex;
+    flex-wrap: wrap;
+    margin:150px 0 0 0;
+}
+.wrappen{
+    flex-basis: 50%;
+    
+}
+.red-container{
+    background: #cd0a2d;
+    float: center;
+    height: 590px;
+}
+.wrap-cont{
+    max-width: 430px;
+    width: 100%;
+    margin:0 auto;
+}
+.white-container{
+    background: #fff;
+    height: 590px;
+    margin-top:63px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    padding: 40px 0 20px 0;
+    margin:0;
+}
+.lorem-box{
+    width: 400px;
+}
+.reasons{
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 0 10px 0;
+}
+.consectetur{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin: 0 0 60px 0;
+}
+// --------------white-cont
+.white-container{
+    .white-container{
+        width: 424px;
+    }
+    .name-wrapper{
+        display: flex;
+        padding-top: 40px;
+        position: relative;
+    }
+    .name-wrapper:first-child{
+        padding-top: 65px;
+    }
+    .author-photo{
+        width: 30%;
+    }
+    .autor-photo img{
+        width: 126px;
+        height: 126px;
+    }
+    .alex-name{
+        color:#5e5e5e;
+        font-size: 48px;
+        font-family: 'Bebas Neue', cursive;
+        margin:0;
+    }
+    .alex-name span{
+        color:#5e5e5e;
+        font-size: 25px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .lorem-name{
+        color:#5e5e5e;
+        font-size: 18px;
+    }
+    .padding--doe{
+        padding-left:27px;
+    }
+}
+    .motorcycles-wrapper{
+        display:block;
+        position: absolute;
+        top:1760px;
+        right:38.5%;
+        z-index: 100;
+    }
+    @media (max-width: 1230px){
+        .motorcycles-wrapper{
+            display:none;
+        }
+        .wrappen{
+            flex-basis: 100%;
+        }
+    
+    
+    }
+    @media (max-width: 575px){
+        .section-three{
+            margin:80px 0 0 0;
+        }
+        .wrap-cont{
+            max-width: 310px;
+        }
+        h3{
+            font-size: 40px;
+            padding: 50px 0 30px 10px;
+        }
+        .lorem-box{
+            width: 300px;
+            margin: 0 auto;
+        }
+        .reasons{
+            font-size: 22px;
+        }
+        .consectetur{
+            font-size: 16px;
+            margin: 0 0 30px 0;
+        }
+        .white-container{
+            margin-top:0;
+        }
+        .white-container{
+            .name-wrapper{
+                padding-top: 40px;
+            }
+            .name-wrapper:first-child{
+                padding-top: 60px;
+            }
+            .author-photo{
+                width: 50%;
+            }
+            .autor-photo img{
+                width: 100px;
+                height: 100px;
+            }
+            .alex-name{
+                font-size: 30px;
+            }
+            .alex-name span{
+                font-size: 20px;
+            }
+            .lorem-name{
+                font-size: 14px;
+            }
+            .padding--doe{
+                padding-left:20px;
+            }
+        }
+    
+    
+    }

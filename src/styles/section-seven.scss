@@ -1,0 +1,189 @@
+.background{
+    background-image: url(../img/phon-3.1700.432.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    max-width: 1700px;
+    height: 432px;
+    position: relative;
+}
+.wrappen-seven{
+    max-width: 813px;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+h6{
+    color:#fff;
+    font-size: 68px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    padding: 119px 0 38px 0;
+    margin:0;
+}
+.start-inner{
+    color:#fff;
+    font-size: 18px;
+}
+.map--seven{
+    color: #cd0a2d;
+    font-size: 180px;
+    position: absolute;
+    top: 320px;
+    left:44%;
+}
+// --------------------section-eight
+.data-one{
+    max-width: 1027px;
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin:0 auto;
+    padding:130px 0 67px 0;
+    
+}
+.data-inner{
+    flex-basis:33.3%;
+    display: flex;
+    align-items: center;
+}
+.inner--two{
+    flex-basis:23%;
+}
+.two-part{
+    padding-left:30px;
+}
+.icon--onepart{
+    font-size: 50px;
+    color: #181818;
+}
+.main-part{
+    font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    padding-left:5px;
+    color: #181818;
+}
+.text-part{
+    font-size: 16px;
+    color: #181818;
+}
+.phone--icon{
+    font-size: 53px;
+    color: #181818;
+}
+.address--icon {
+    font-size: 50px;
+    color: #181818;
+}
+// ------------many-icon---
+.section-eight{
+.many-icon{
+    max-width: 677px;
+    width: 100%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 77px;
+    flex-wrap: wrap;
+}
+.wrapp{
+    height: 70px;
+    width: 70px;
+    border: 2px solid #f0d839;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 26px;
+
+}
+.wrapp:last-child{
+    margin-right: 0;
+}
+.fab{
+    margin-top:23px;
+    color: #353535;
+}
+}
+// --------------section-nine
+.section-nine{
+.container-nine{
+    background: #cd0a2d;
+}
+.text-nine{
+    width: 277px;
+    margin:0 auto;
+    text-align: center;
+    padding: 63px 0 67px 0;
+
+}
+p{
+    font-size: 17px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2.2;
+}
+}
+@media (max-width: 1230px){
+    .data-one{
+        width: 900px;
+    }
+
+}
+@media (max-width: 990px){
+    .data-inner{
+        flex-basis:100%;
+        justify-content: center;
+        margin: 10px 0 40px 0;
+
+    }
+    .data-one{
+        width: 100%;
+        margin:0;
+        
+    }
+    h6{
+        font-size: 50px;
+    }
+    .start-inner{
+        font-size: 14px;
+    }
+    .map--seven{
+        font-size: 140px;
+    }
+}
+@media (max-width: 770px){
+    .section-eight{
+        .wrapp{
+            height: 50px;
+            width: 50px;
+            border: 2px solid #f0d839;
+            border-radius: 100%;
+            text-align: center;
+            font-size: 20px;
+        
+        }
+        .fab{
+            margin-top:15px;
+            color: #353535;
+        }
+     }
+
+}
+@media (max-width: 575px){
+.map--seven{
+    color: #cd0a2d;
+    font-size: 180px;
+    position: absolute;
+    top: 320px;
+    left:33%;
+}
+.section-eight{
+.many-icon{
+    max-width: 240px;
+    padding-bottom: 77px;
+    justify-content: space-around;
+}
+}
+}

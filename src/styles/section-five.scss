@@ -1,0 +1,242 @@
+.section-five{
+    background: #1a1919;
+    margin:0;
+    padding:0;
+    height: 830px;
+    position: relative;
+   
+}
+.container-five{
+    background-image: url(../img/place.1300.829.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 830px;
+    width: 100%;
+}
+.inner-five{
+    margin:0 auto;
+    width: 850px;
+    text-align: center;
+    padding-top: 90px;
+}
+h5{
+    margin:0;
+    padding:0;
+    font-size: 68px;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+h5 span{
+    color: #cd0a2d;
+}
+.flex-five{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.block-flex{
+    flex-basis: 50%;
+    margin-top: 70px;
+}
+.statistic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 90px;
+}
+.activ--statistic{
+    padding-top:15px;
+}
+.container-forred{
+    width: 490px;
+    margin:0 auto;
+    text-align: center;
+    padding: 95px 0 70px 0;
+    
+}
+.block--inner{
+    background-color: rgba(#cd0a2d, 0.7);
+}
+.stat-one{
+    text-align: center;
+    line-height: 0.9;
+}
+.submit{
+    color:#fff;
+    font-size: 55px;
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+}
+.submit span{
+    font-size: 29px;
+}
+.submit-one{
+    font-size: 29px;
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+}
+.stat-two{
+    text-align: center;
+    line-height: 0.8;
+}
+.submit-big{
+    font-size: 87px;
+    margin:0;
+    font-family: 'Bebas Neue', cursive;
+}
+.submit-big span{
+    font-size: 46px;
+}
+.submit-seven{
+    font-size: 46px;
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+}
+// --------------------vtoroi-block---
+.stat-three{
+    text-align: center;
+    line-height: 0.8;
+}
+.submit-fiveteen{
+    font-size: 123px;
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+}
+.submit-countries{
+    text-transform: uppercase;
+    font-size: 46px;
+    font-family: 'Bebas Neue', cursive;
+    margin:0;
+}
+.text-five{
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top:12px;
+}
+
+.top-moto{
+    position: absolute;
+    display: block;
+    top:270px;
+    left: 37.6%;
+    margin:0;
+    padding:0;
+}
+@media (max-width: 1230px){
+    .top-moto{
+        display:none;
+    }
+}
+@media (max-width: 990px){
+    h5{
+        font-size: 50px;
+    }
+    .section-five{
+        .section-five{
+            background-color: #1a1919;
+        }
+        .inner-five{
+            width: 700px;
+        }
+        .inner-five{
+             p{
+                font-size: 15px;
+             }
+        }
+        .block-flex{
+            flex-basis:100%;
+        }
+        
+        .block-flex{
+            margin-top:30px;
+        }
+        .container-forred{
+            padding:20px 0 30px 0;
+        }
+        .statistic{
+            padding:0;
+        }
+
+    }
+    
+}
+@media (max-width: 770px){
+    h5{
+        font-size: 50px;
+    }
+    .section-five{
+        .inner-five{
+            width: 100%;
+        }
+
+    
+    .block-flex{
+        margin-top:10px;
+    }
+}
+    
+}
+@media (max-width: 575px){
+    h5{
+        font-size: 48px;
+    }
+    .section-five{
+        .inner-five{
+            width: 100%;
+            padding-top: 60px;
+        }
+        .container-forred{
+            max-width: 320px;
+            width: 100%;
+            padding: 30px 0 50px 0;
+            
+        }
+        .stat-one{
+            text-align: center;
+            line-height: 0.9;
+        }
+        .submit{
+            font-size: 30px;
+        }
+        .submit span{
+            font-size: 22px;
+        }
+        .submit-one{
+            font-size: 18px;
+        }
+        .stat-two{
+            text-align: center;
+            line-height: 0.8;
+        }
+        .submit-big{
+            font-size: 40px;
+            margin:0;
+            font-family: 'Bebas Neue', cursive;
+        }
+        .submit-big span{
+            font-size: 28px;
+        }
+        .submit-seven{
+            font-size: 25px;
+        }
+        .text-five{
+            font-size:14px;
+        }
+        // ----------vtoroi block
+        .submit-fiveteen{
+            font-size: 50px;
+        }
+        .submit-countries{
+            font-size: 30px;
+        }
+        .very--activ{
+            padding:0;
+        }
+
+       
+
+    }
+    
+}

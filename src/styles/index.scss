@@ -1,0 +1,13 @@
+@import './section-one';
+@import './section-two';
+@import './section-three';
+@import './section-four';
+@import './section-five';
+@import './section-six';
+@import './section-seven';
+$body-color: #fff;
+body {
+  color: $body-color;
+  font-family: sans-serif;
+  background: #ededed;
+}
